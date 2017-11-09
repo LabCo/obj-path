@@ -1,7 +1,7 @@
 {
-  "name": "ts-module-starter",
+  "name": "obj-path",
   "version": "1.0.0",
-  "description": "Template for creating typescript modules",
+  "description": "Utility for accessing object properties by a path",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -24,11 +24,16 @@
         "tsConfigFile": "tsconfig.json"
       }
     },
-    "moduleFileExtensions": [ "ts", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
     "transform": {
       "^.+\\.(ts)$": "./node_modules/ts-jest/preprocessor.js"
     },
-    "testMatch": [ "**/tests/**/*.test.(ts|js)" ],
+    "testMatch": [
+      "**/tests/**/*.test.(ts|js)"
+    ],
     "testEnvironment": "node"
   }
 }
