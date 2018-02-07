@@ -1,5 +1,5 @@
 {
-  "name": "obj-path",
+  "name": "lab-obj-path",
   "version": "1.0.0",
   "description": "Utility for accessing object properties by a path",
   "main": "dist/index.js",
